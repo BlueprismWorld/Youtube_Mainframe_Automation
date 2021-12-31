@@ -1,0 +1,2017 @@
+﻿<process name="Mainframe2" version="1.0" bpversion="6.10.1.35171" narrative="Created by Naveen&#xD;&#xA;Mail : naveen.rpa93@gmail.com" byrefcollection="true" type="object" runmode="Exclusive" preferredid="f448a451-c70d-44b2-a682-499473055a0a">
+  <appdef>
+    <element name="Mainframe2">
+      <id>e0a5465f-082e-450f-9da1-4f7b5618b65e</id>
+      <element name="MainWindow_Win32">
+        <id>380684ff-3a1f-479a-a870-daeaf0f81b81</id>
+        <type>Window</type>
+        <basetype>Window</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="Session N - [24 x 80]" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="PCSWS:Main:00007FF626750000" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="342160" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="52" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="52" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="977" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="615" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="7" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:60,103,658,1020" />
+          </attribute>
+          <attribute name="Style">
+            <ProcessValue datatype="number" value="349110272" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <region-container name="MainWindow_Region">
+        <id>dd38895f-c3dd-40c8-901c-f3185e740f9a</id>
+        <region name="Field_Logon">
+          <container>dd38895f-c3dd-40c8-901c-f3185e740f9a</container>
+          <id>c073ef11-fda5-4295-8c86-b6c0e7d9c904</id>
+          <type>WindowRect</type>
+          <basetype>WindowRect</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="WindowText">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ClassName" inuse="True">
+              <ProcessValue datatype="text" value="PCSWS:Pres:00007FF626750000" />
+            </attribute>
+            <attribute name="CtrlID">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="3" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="59" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="1361" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="578" />
+            </attribute>
+            <attribute name="Visible" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="ScreenVisible" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Enabled" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Active">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="Ordinal">
+              <ProcessValue datatype="number" value="5" />
+            </attribute>
+            <attribute name="ChildCount">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="AncestorsText">
+              <ProcessValue datatype="text" value="Session N - [24 x 80] &lt;UNKNOWN&gt; " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="2" />
+            </attribute>
+            <attribute name="TypeName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:3,102,679,1363" />
+            </attribute>
+            <attribute name="Style">
+              <ProcessValue datatype="number" value="1342177280" />
+            </attribute>
+            <attribute name="pWindowText">
+              <ProcessValue datatype="text" value="Session N - [24 x 80]" />
+            </attribute>
+            <attribute name="pClassName">
+              <ProcessValue datatype="text" value="PCSWS:Main:00007FF626750000" />
+            </attribute>
+            <attribute name="pCtrlID">
+              <ProcessValue datatype="number" value="342160" />
+            </attribute>
+            <attribute name="pX">
+              <ProcessValue datatype="number" value="-8" />
+            </attribute>
+            <attribute name="pY">
+              <ProcessValue datatype="number" value="-8" />
+            </attribute>
+            <attribute name="pWidth">
+              <ProcessValue datatype="number" value="1383" />
+            </attribute>
+            <attribute name="pHeight">
+              <ProcessValue datatype="number" value="745" />
+            </attribute>
+            <attribute name="pVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pScreenVisible">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pEnabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pActive">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="pOrdinal">
+              <ProcessValue datatype="number" value="3" />
+            </attribute>
+            <attribute name="pChildCount">
+              <ProcessValue datatype="number" value="7" />
+            </attribute>
+            <attribute name="pStyle">
+              <ProcessValue datatype="number" value="1342177280" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="StartX" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="StartY" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="number" value="529" />
+            </attribute>
+            <attribute name="EndX" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="number" value="85" />
+            </attribute>
+            <attribute name="EndY" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="number" value="554" />
+            </attribute>
+            <attribute name="RetainImage" system="True">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="ElementSnapshot" inuse="True" system="True">
+              <ProcessValue datatype="image" value="" />
+            </attribute>
+            <attribute name="FontName" inuse="True" system="True">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="LocationMethod" inuse="True" system="True">
+              <ProcessValue datatype="text" value="Coordinates" />
+            </attribute>
+            <attribute name="RegionPosition" inuse="True" system="True">
+              <ProcessValue datatype="text" value="Relative" />
+            </attribute>
+            <attribute name="ImageSearchPadding" inuse="True" system="True">
+              <ProcessValue datatype="text" value="20, 15, 20, 15" />
+            </attribute>
+            <attribute name="ColourTolerance" inuse="True" system="True">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="Greyscale" inuse="True" system="True">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+          </attributes>
+        </region>
+        <type>Window</type>
+        <basetype>Window</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="PCSWS:Pres:00007FF626750000" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="59" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="1361" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="578" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="5" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="Session N - [24 x 80] &lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:3,102,679,1363" />
+          </attribute>
+          <attribute name="Style">
+            <ProcessValue datatype="number" value="1342177280" />
+          </attribute>
+          <attribute name="pWindowText">
+            <ProcessValue datatype="text" value="Session N - [24 x 80]" />
+          </attribute>
+          <attribute name="pClassName">
+            <ProcessValue datatype="text" value="PCSWS:Main:00007FF626750000" />
+          </attribute>
+          <attribute name="pCtrlID">
+            <ProcessValue datatype="number" value="342160" />
+          </attribute>
+          <attribute name="pX">
+            <ProcessValue datatype="number" value="-8" />
+          </attribute>
+          <attribute name="pY">
+            <ProcessValue datatype="number" value="-8" />
+          </attribute>
+          <attribute name="pWidth">
+            <ProcessValue datatype="number" value="1383" />
+          </attribute>
+          <attribute name="pHeight">
+            <ProcessValue datatype="number" value="745" />
+          </attribute>
+          <attribute name="pVisible">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pScreenVisible">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pEnabled">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pActive">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pOrdinal">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="pChildCount">
+            <ProcessValue datatype="number" value="7" />
+          </attribute>
+          <attribute name="pStyle">
+            <ProcessValue datatype="number" value="1342177280" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Screenshot">
+            <ProcessValue datatype="image" value="1360,577,137224,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" />
+          </attribute>
+        </attributes>
+      </region-container>
+      <element name="Button Communication">
+        <id>eeab4264-53a0-47b6-98ed-062d1d54f519</id>
+        <type>AAElement</type>
+        <basetype>AAElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText" inuse="True">
+            <ProcessValue datatype="text" value="Session N - [24 x 80]" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="PCSWS:Main:00007FF626750000" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="342160" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="-8" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="-8" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="1383" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="745" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="7" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:0,43,728,1366" />
+          </attribute>
+          <attribute name="Style">
+            <ProcessValue datatype="number" value="365887488" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="161" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="101" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="19" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Communication" />
+          </attribute>
+          <attribute name="Description">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role">
+            <ProcessValue datatype="text" value="MenuItem" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="has popup" />
+          </attribute>
+          <attribute name="Value2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut">
+            <ProcessValue datatype="text" value="Alt+c" />
+          </attribute>
+          <attribute name="DefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ElementCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="4" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:161,23,42,262" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="31" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="1366" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="19" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="Application" />
+          </attribute>
+          <attribute name="pDescription" inuse="True">
+            <ProcessValue datatype="text" value="Contains commands to manipulate the current view or document" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="MenuBar" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="focusable" />
+          </attribute>
+          <attribute name="pValue2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="Alt" />
+          </attribute>
+          <attribute name="pDefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Button Disconnect">
+        <id>74036176-37fa-40a5-ac89-a6ccc3936832</id>
+        <type>AAElement</type>
+        <basetype>AAElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ClassName">
+            <ProcessValue datatype="text" value="#32768" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="161" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="42" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="201" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="134" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:164,45,172,358" />
+          </attribute>
+          <attribute name="Style">
+            <ProcessValue datatype="number" value="-1803550720" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="194" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="28" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Disconnect" />
+          </attribute>
+          <attribute name="Description">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="MenuItem" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="1" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="hot tracked" />
+          </attribute>
+          <attribute name="Value2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="d" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="Execute" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="6" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:164,45,73,358" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="19" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="200" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="133" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="Communication" />
+          </attribute>
+          <attribute name="pDescription">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="Window" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="focusable" />
+          </attribute>
+          <attribute name="pValue2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Button Connect">
+        <id>1ece9ae0-9c5c-49a6-82a8-3e8421806837</id>
+        <type>AAElement</type>
+        <basetype>AAElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="WindowText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="#32768" />
+          </attribute>
+          <attribute name="CtrlID">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="161" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="42" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="201" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="134" />
+          </attribute>
+          <attribute name="Visible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="ScreenVisible" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Active">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Ordinal">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="ChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="AncestorsText">
+            <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="TypeName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:164,45,172,358" />
+          </attribute>
+          <attribute name="Style">
+            <ProcessValue datatype="number" value="-1803550720" />
+          </attribute>
+          <attribute name="aX">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="aY">
+            <ProcessValue datatype="number" value="3" />
+          </attribute>
+          <attribute name="aWidth">
+            <ProcessValue datatype="number" value="194" />
+          </attribute>
+          <attribute name="aHeight">
+            <ProcessValue datatype="number" value="28" />
+          </attribute>
+          <attribute name="Name" inuse="True">
+            <ProcessValue datatype="text" value="Connect" />
+          </attribute>
+          <attribute name="Description">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Role" inuse="True">
+            <ProcessValue datatype="text" value="MenuItem" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="1" />
+          </attribute>
+          <attribute name="State">
+            <ProcessValue datatype="text" value="hot tracked" />
+          </attribute>
+          <attribute name="Value2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="KeyboardShortcut" inuse="True">
+            <ProcessValue datatype="text" value="c" />
+          </attribute>
+          <attribute name="DefaultAction" inuse="True">
+            <ProcessValue datatype="text" value="Execute" />
+          </attribute>
+          <attribute name="ElementCount" inuse="True">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="aAncestorCount">
+            <ProcessValue datatype="number" value="6" />
+          </attribute>
+          <attribute name="Unavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focused">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Pressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="aChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Mixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Hottracked">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Default">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Expanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Collapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Busy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Floating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Marqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Animated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Invisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Offscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Sizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Moveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="SelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Focusable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Selectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Linked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Traversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Multiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Extselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="Alert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:164,45,73,358" />
+          </attribute>
+          <attribute name="paX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="paY">
+            <ProcessValue datatype="number" value="19" />
+          </attribute>
+          <attribute name="paWidth">
+            <ProcessValue datatype="number" value="200" />
+          </attribute>
+          <attribute name="paHeight">
+            <ProcessValue datatype="number" value="133" />
+          </attribute>
+          <attribute name="pName" inuse="True">
+            <ProcessValue datatype="text" value="Communication" />
+          </attribute>
+          <attribute name="pDescription">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pRole" inuse="True">
+            <ProcessValue datatype="text" value="Window" />
+          </attribute>
+          <attribute name="pID" inuse="True">
+            <ProcessValue datatype="text" value="Self" />
+          </attribute>
+          <attribute name="pState">
+            <ProcessValue datatype="text" value="focusable" />
+          </attribute>
+          <attribute name="pValue2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pKeyboardShortcut">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pDefaultAction">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="pElementCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="pUnavailable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelected">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocused">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pPressed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="paChecked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMixed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pReadOnly">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pHottracked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pDefault">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExpanded">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pCollapsed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pBusy">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFloating">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMarqueed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAnimated">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pInvisible">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSizeable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMoveable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pSelfVoicing">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pFocusable">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="pSelectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pLinked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pTraversed">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pMultiselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pExtselectable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_low">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_medium">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pAlert_high">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>Win32Attach</id>
+      <parameters>
+        <parameter>
+          <name>WindowTitle</name>
+          <value>Session*</value>
+        </parameter>
+        <parameter>
+          <name>ProcessName</name>
+          <value>pcsws</value>
+        </parameter>
+        <parameter>
+          <name>Path</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>NonInvasive</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+        <parameter>
+          <name>Options</name>
+          <value>
+          </value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="9b91980d-cc2d-406d-bee6-8a786f9e290e" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="96eef29f-1498-444f-b93c-4e70ee175020" type="Normal" published="True">
+    <name>Activate</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="2b198f0c-ad60-48d9-9631-960d4d3ec5fd" type="Normal" published="False">
+    <name>Attach</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="757a7a79-02ca-49e4-8611-021c4bd63b5b" type="Normal" published="True">
+    <name>Check Logon</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="1fe5015d-2ebe-4da2-b741-03ae3c078a7d" type="Normal" published="True">
+    <name>Reconnect</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="bd606518-1912-4be6-9543-aec934b8b63f" type="Normal" published="True">
+    <name>Restore</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="1d2f484e-7304-4f15-8cb6-7ab205fd4d2e" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>6008cdac-7fc1-4016-829b-4a04fe460ce8</onsuccess>
+  </stage>
+  <stage stageid="6008cdac-7fc1-4016-829b-4a04fe460ce8" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="2e7b917b-1590-4134-8c19-29a447271529" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="30e6d4be-9a81-4183-a6b1-6b920d17c83e" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>9b91980d-cc2d-406d-bee6-8a786f9e290e</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="78abdd23-29b8-406f-b90f-04a9c7d75636" name="Start" type="Start">
+    <subsheetid>9b91980d-cc2d-406d-bee6-8a786f9e290e</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>163f483f-90e6-40da-b563-537d64cc181b</onsuccess>
+  </stage>
+  <stage stageid="163f483f-90e6-40da-b563-537d64cc181b" name="End" type="End">
+    <subsheetid>9b91980d-cc2d-406d-bee6-8a786f9e290e</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="a268950c-6505-42f4-b11d-ef94dd22285f" name="Activate" type="SubSheetInfo">
+    <subsheetid>96eef29f-1498-444f-b93c-4e70ee175020</subsheetid>
+    <display x="-240" y="-45" w="150" h="90" />
+  </stage>
+  <stage stageid="d6e1d66b-a6ce-4b1d-9cf9-a6b6bbdde757" name="Start" type="Start">
+    <subsheetid>96eef29f-1498-444f-b93c-4e70ee175020</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>a98ba4dd-43dd-4914-9052-fe3569e1db71</onsuccess>
+  </stage>
+  <stage stageid="f19386a3-cf96-46a4-8334-3bef1879b868" name="End" type="End">
+    <subsheetid>96eef29f-1498-444f-b93c-4e70ee175020</subsheetid>
+    <loginhibit />
+    <display x="15" y="30" />
+  </stage>
+  <stage stageid="eea0e989-3606-4fec-a501-5f3c9373d3bf" name="" type="Note">
+    <subsheetid>9b91980d-cc2d-406d-bee6-8a786f9e290e</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="67648dbd-3e86-4d16-9e3a-32df1c3393a6" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="3292c1e9-d6c4-4ba5-beef-e5f533e53fb2" name="Attach" type="SubSheetInfo">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="0f6ca437-15f6-4485-8a44-8bcfc2010805" name="Start" type="Start">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>9884b3de-cb80-424e-8ccc-10008431e7e5</onsuccess>
+  </stage>
+  <stage stageid="4d92cfb1-be1a-47f2-b565-1078ecb1347b" name="End" type="End">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="15" y="30" />
+  </stage>
+  <stage stageid="9884b3de-cb80-424e-8ccc-10008431e7e5" name="Read Attach" type="Read">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="15" y="-60" />
+    <onsuccess>b2d6c020-4553-4ac9-85a3-efb848f5caa1</onsuccess>
+    <step stage="isConnected">
+      <element id="e0a5465f-082e-450f-9da1-4f7b5618b65e" />
+      <action>
+        <id>IsConnected</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="93ff568a-b2e2-407c-948a-1593aefffbea" name="isConnected" type="Data">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <display x="-150" y="45" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b2d6c020-4553-4ac9-85a3-efb848f5caa1" name="isConnected?" type="Decision">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <decision expression="[isConnected]" />
+    <ontrue>4d92cfb1-be1a-47f2-b565-1078ecb1347b</ontrue>
+    <onfalse>5807fa79-5e39-497f-b5ff-1ecb3af7811d</onfalse>
+  </stage>
+  <stage stageid="5807fa79-5e39-497f-b5ff-1ecb3af7811d" name="Navigate1" type="Navigate">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="90" y="-15" />
+    <onsuccess>fd06c43a-dc67-4b2d-bdfe-cddcf2e6f8e9</onsuccess>
+    <step>
+      <element id="e0a5465f-082e-450f-9da1-4f7b5618b65e" />
+      <action>
+        <id>AttachApplication</id>
+        <arguments>
+          <argument>
+            <id>WindowTitlesCollection</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WindowTitle</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessName</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessID</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>Username</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ChildIndex</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="fd06c43a-dc67-4b2d-bdfe-cddcf2e6f8e9" name="Anchor1" type="Anchor">
+    <subsheetid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</subsheetid>
+    <loginhibit />
+    <display x="90" y="30" w="10" h="10" />
+    <onsuccess>4d92cfb1-be1a-47f2-b565-1078ecb1347b</onsuccess>
+  </stage>
+  <stage stageid="a98ba4dd-43dd-4914-9052-fe3569e1db71" name="Attach" type="SubSheet">
+    <subsheetid>96eef29f-1498-444f-b93c-4e70ee175020</subsheetid>
+    <loginhibit />
+    <display x="15" y="-60" />
+    <onsuccess>5535976b-b3e8-459a-aab6-70dd2d8b1fef</onsuccess>
+    <processid>2b198f0c-ad60-48d9-9631-960d4d3ec5fd</processid>
+  </stage>
+  <stage stageid="5535976b-b3e8-459a-aab6-70dd2d8b1fef" name="Activate &amp; Maxmise" type="Navigate" interval="0.25">
+    <subsheetid>96eef29f-1498-444f-b93c-4e70ee175020</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>f19386a3-cf96-46a4-8334-3bef1879b868</onsuccess>
+    <step>
+      <element id="380684ff-3a1f-479a-a870-daeaf0f81b81" />
+      <action>
+        <id>ActivateApp</id>
+      </action>
+    </step>
+    <step>
+      <element id="380684ff-3a1f-479a-a870-daeaf0f81b81" />
+      <action>
+        <id>MaximiseWindow</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="4c509ae3-a722-4c51-a2e6-979bad70e360" name="Check Logon" type="SubSheetInfo">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <display x="-270" y="-30" w="150" h="90" />
+  </stage>
+  <stage stageid="7d55b5a1-5e1f-4963-9642-2ebcc835cc76" name="Start" type="Start">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>96c5df14-f0de-451e-a7a8-c8b460f4de4c</onsuccess>
+  </stage>
+  <stage stageid="28d0b078-d454-4d55-8e47-b0da13f945b2" name="End" type="End">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="15" y="120" />
+    <outputs>
+      <output type="flag" name="isAvailable" stage="Contained" />
+    </outputs>
+  </stage>
+  <stage stageid="aab5a23a-5645-4c09-99d1-52a6194baf32" name="Get Bounds" type="Read">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>b15fd3ea-4b82-46b6-8456-51b42c9753d1</onsuccess>
+    <step stage="Screen bounds">
+      <element id="dd38895f-c3dd-40c8-901c-f3185e740f9a" />
+      <action>
+        <id>GetElementBounds</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="28c74d08-def3-4e9b-a69a-34b5f05e2597" name="Screen bounds" type="Collection">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <display x="-120" y="-45" w="90" h="30" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="96c5df14-f0de-451e-a7a8-c8b460f4de4c" name="Activate" type="SubSheet">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="15" y="-60" />
+    <onsuccess>aab5a23a-5645-4c09-99d1-52a6194baf32</onsuccess>
+    <processid>96eef29f-1498-444f-b93c-4e70ee175020</processid>
+  </stage>
+  <stage stageid="b15fd3ea-4b82-46b6-8456-51b42c9753d1" name="Get Image" type="Read">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="15" y="30" />
+    <onsuccess>3b4cadb0-e242-4a37-be6d-9e59596d9032</onsuccess>
+    <step stage="Value from Field_Logon">
+      <element id="c073ef11-fda5-4295-8c86-b6c0e7d9c904">
+        <elementparameter>
+          <name>StartX</name>
+          <expression>0</expression>
+          <datatype>number</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>StartY</name>
+          <expression>0</expression>
+          <datatype>number</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>EndX</name>
+          <expression>[Screen bounds.Right]</expression>
+          <datatype>number</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>EndY</name>
+          <expression>[Screen bounds.Bottom]</expression>
+          <datatype>number</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>ReadBitmap</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="1aaa36a2-618f-49b6-a983-603a3f1263d7" name="Value from Field_Logon" type="Data">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <display x="135" y="-90" />
+    <datatype>image</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="3b4cadb0-e242-4a37-be6d-9e59596d9032" name="Get Sub Image Position" type="Action">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="75" />
+    <inputs>
+      <input type="image" name="Main Image" friendlyname="Main Image" narrative="The image to check" expr="[Value from Field_Logon]" />
+      <input type="image" name="Potential SubImage" friendlyname="Potential SubImage" narrative="The image to check for" expr="[Data1]" />
+    </inputs>
+    <outputs>
+      <output type="number" name="X Index" friendlyname="X Index" narrative="The X location of the sub image" stage="" />
+      <output type="number" name="Y Index" friendlyname="Y Index" narrative="The Y location of the sub image" stage="" />
+      <output type="flag" name="Contained" friendlyname="Contained" narrative="True if the main image contains the sub image" stage="Contained" />
+    </outputs>
+    <onsuccess>28d0b078-d454-4d55-8e47-b0da13f945b2</onsuccess>
+    <resource object="Utility - Image Manipulation" action="Get Sub Image Position" />
+  </stage>
+  <stage stageid="730c7201-1d6f-46c8-93b2-cc147db99e57" name="Data1" type="Data">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <loginhibit />
+    <display x="135" y="-60" />
+    <datatype>image</datatype>
+    <initialvalue>84,26,137224,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAaCAIAAACmW+yKAAABM0lEQVRYR+2V7RWDIAxFncuBnIdpWIZhbBI+lBBEaI9tNfdfg8nLKwQmRVGU5zAbtyJ2CYEnoebVfAicZF6Mtc7nRpxz1ixz+IIxY0aZkKAA76JHZe8ExCBtnydmDZjHwlQPq23lvDu/wFSiSKZPDVJ4dUbw0quSRMA0OGVJltaYUrf5UEbqF5Hq1VNSw3xpQKVayyNV7DR/4vNSpW2elRtSaSR9yzzGKI0d++38hlDkx81nNTJqX8Cs+oVE7eYaVGk4+YD5VKShkS+Hy6vmVWBA5Qrzycrpe1jYpRMM3/YD5o8p+8YeyhfYynuLRloyOARFbo/KgPkroBcdHt/6qY/b3HMA/4Lwlx/bkob4FsQDR8ObbT38XHCE/a4Lx/4W0DUFJvngQwQnuDoOiqIoyvtM0wucKFcLmHkbsgAAAABJRU5ErkJggg==</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="97471901-80dc-488f-a87a-32ebc3153d8b" name="Contained" type="Data">
+    <subsheetid>757a7a79-02ca-49e4-8611-021c4bd63b5b</subsheetid>
+    <display x="105" y="15" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="08490e9a-4dfc-4112-a2cb-3318821f2b21" name="Reconnect" type="SubSheetInfo">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <display x="-210" y="-30" w="150" h="90" />
+  </stage>
+  <stage stageid="b8ac4413-9169-4ff4-bd12-3dc95e57ad83" name="Start" type="Start">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="15" y="-165" />
+    <onsuccess>23a4f5a8-f416-45c9-8c5c-1b59c94a368a</onsuccess>
+  </stage>
+  <stage stageid="4d4fb825-a10a-4327-907e-6b4c521499c4" name="End" type="End">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="75" y="195" />
+  </stage>
+  <stage stageid="6308c395-623c-484b-b039-6257be3b5cec" name="Time Out1" type="WaitEnd">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="150" y="-30" w="30" h="30" />
+    <onsuccess>493decbd-f915-4e7d-aa14-f6028c6da2b3</onsuccess>
+    <groupid>c35a6ba6-57cd-42b9-960f-ae20e1440d04</groupid>
+  </stage>
+  <stage stageid="668d1349-6686-4b33-bfd2-92706b8658f2" name="Wait1" type="WaitStart">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-90" y="-30" w="30" h="30" />
+    <groupid>c35a6ba6-57cd-42b9-960f-ae20e1440d04</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Button Connect Check Exists</name>
+        <distance>165</distance>
+        <ontrue>ee46aa93-e2ac-4a1f-8344-dfb664428b61</ontrue>
+        <element id="1ece9ae0-9c5c-49a6-82a8-3e8421806837" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+      <choice reply="True">
+        <name>Button Disconnect Check Exists</name>
+        <distance>75</distance>
+        <ontrue>ba7f3523-01e5-4fd8-a5c7-1f1fd9621df6</ontrue>
+        <element id="74036176-37fa-40a5-ac89-a6ccc3936832" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="ee46aa93-e2ac-4a1f-8344-dfb664428b61" name="Click Connect" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-15" y="15" />
+    <onsuccess>48cb6da6-e160-475e-9a86-0352bedb7b64</onsuccess>
+    <step>
+      <element id="1ece9ae0-9c5c-49a6-82a8-3e8421806837" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="ba7f3523-01e5-4fd8-a5c7-1f1fd9621df6" name="Click Diconnect" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="75" y="15" />
+    <onsuccess>e0830163-3e97-4db0-9530-9e273ce9132b</onsuccess>
+    <step>
+      <element id="74036176-37fa-40a5-ac89-a6ccc3936832" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="ecd70014-572d-4dcb-ab6d-7158a95456a1" name="Click Communication" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="15" y="-75" w="90" h="30" />
+    <onsuccess>668d1349-6686-4b33-bfd2-92706b8658f2</onsuccess>
+    <step>
+      <element id="eeab4264-53a0-47b6-98ed-062d1d54f519" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="48cb6da6-e160-475e-9a86-0352bedb7b64" name="Click Communication" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-15" y="60" w="90" h="30" />
+    <onsuccess>1d5ced1c-80c9-4f91-9d2d-aa79deae75d8</onsuccess>
+    <step>
+      <element id="eeab4264-53a0-47b6-98ed-062d1d54f519" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="e0830163-3e97-4db0-9530-9e273ce9132b" name="Click Communication" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="75" y="105" w="90" h="30" />
+    <onsuccess>ed094a93-369f-4fcc-926d-1ed266c6b9ab</onsuccess>
+    <step>
+      <element id="eeab4264-53a0-47b6-98ed-062d1d54f519" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="84536c81-a4af-480b-a41d-e91eb340ee9c" name="Click Diconnect" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-15" y="105" />
+    <onsuccess>e0830163-3e97-4db0-9530-9e273ce9132b</onsuccess>
+    <step>
+      <element id="74036176-37fa-40a5-ac89-a6ccc3936832" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="558ea9b7-384d-4af4-83fe-4a3f940c73c3" name="Click Connect" type="Navigate">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="75" y="150" />
+    <onsuccess>4d4fb825-a10a-4327-907e-6b4c521499c4</onsuccess>
+    <step>
+      <element id="1ece9ae0-9c5c-49a6-82a8-3e8421806837" />
+      <action>
+        <id>AAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="f4ffbae6-d660-49d3-8554-5263ef1b0b79" name="Time Out2" type="WaitEnd">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-90" y="195" w="30" h="30" />
+    <onsuccess>4d4fb825-a10a-4327-907e-6b4c521499c4</onsuccess>
+    <groupid>dcb23ea6-8b0e-43f2-9d91-b75d68d1554f</groupid>
+  </stage>
+  <stage stageid="1d5ced1c-80c9-4f91-9d2d-aa79deae75d8" name="Wait2" type="WaitStart">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="-90" y="60" w="30" h="30" />
+    <groupid>dcb23ea6-8b0e-43f2-9d91-b75d68d1554f</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Button Disconnect Check Exists</name>
+        <distance>45</distance>
+        <ontrue>84536c81-a4af-480b-a41d-e91eb340ee9c</ontrue>
+        <element id="74036176-37fa-40a5-ac89-a6ccc3936832" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="eca1e546-02b4-4b75-b224-879c102f6eed" name="Time Out3" type="WaitEnd">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="150" y="195" w="30" h="30" />
+    <onsuccess>4d4fb825-a10a-4327-907e-6b4c521499c4</onsuccess>
+    <groupid>a3b3c575-58db-42f6-a1e3-8e6d22262aef</groupid>
+  </stage>
+  <stage stageid="ed094a93-369f-4fcc-926d-1ed266c6b9ab" name="Wait3" type="WaitStart">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="150" y="105" w="30" h="30" />
+    <groupid>a3b3c575-58db-42f6-a1e3-8e6d22262aef</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Button Connect Check Exists</name>
+        <distance>45</distance>
+        <ontrue>558ea9b7-384d-4af4-83fe-4a3f940c73c3</ontrue>
+        <element id="1ece9ae0-9c5c-49a6-82a8-3e8421806837" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="493decbd-f915-4e7d-aa14-f6028c6da2b3" name="End1" type="End">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="225" y="-30" />
+  </stage>
+  <stage stageid="23a4f5a8-f416-45c9-8c5c-1b59c94a368a" name="Activate" type="SubSheet">
+    <subsheetid>1fe5015d-2ebe-4da2-b741-03ae3c078a7d</subsheetid>
+    <loginhibit />
+    <display x="15" y="-120" />
+    <onsuccess>ecd70014-572d-4dcb-ab6d-7158a95456a1</onsuccess>
+    <processid>96eef29f-1498-444f-b93c-4e70ee175020</processid>
+  </stage>
+  <stage stageid="c1335cd8-3f2e-4320-934c-9a4da284be7b" name="Restore" type="SubSheetInfo">
+    <subsheetid>bd606518-1912-4be6-9543-aec934b8b63f</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="252a1a0b-8968-45a9-b1f8-aa1204ab82ff" name="Start" type="Start">
+    <subsheetid>bd606518-1912-4be6-9543-aec934b8b63f</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>827a3490-0efa-42b1-b7b6-8aa36ea44909</onsuccess>
+  </stage>
+  <stage stageid="66f10ea3-5ae6-4501-aa8c-f2a537d7f11c" name="End" type="End">
+    <subsheetid>bd606518-1912-4be6-9543-aec934b8b63f</subsheetid>
+    <loginhibit />
+    <display x="15" y="30" />
+  </stage>
+  <stage stageid="b28ec1fd-008e-4ecd-ba5b-b0c2efd05d53" name="Restore Window" type="Navigate">
+    <subsheetid>bd606518-1912-4be6-9543-aec934b8b63f</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>66f10ea3-5ae6-4501-aa8c-f2a537d7f11c</onsuccess>
+    <step>
+      <element id="380684ff-3a1f-479a-a870-daeaf0f81b81" />
+      <action>
+        <id>RestoreWindow</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="827a3490-0efa-42b1-b7b6-8aa36ea44909" name="Activate" type="SubSheet">
+    <subsheetid>bd606518-1912-4be6-9543-aec934b8b63f</subsheetid>
+    <loginhibit />
+    <display x="15" y="-60" />
+    <onsuccess>b28ec1fd-008e-4ecd-ba5b-b0c2efd05d53</onsuccess>
+    <processid>96eef29f-1498-444f-b93c-4e70ee175020</processid>
+  </stage>
+</process>
