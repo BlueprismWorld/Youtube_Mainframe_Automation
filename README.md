@@ -11,6 +11,7 @@ shutdown - to shutdown the tk4- system.<br>
 logoff - to logoff current user.<br>
 x, return, end - to goback to main menu based on current screen.<br>
 for more commands visit http://wotho.ethz.ch/tk4-/MVS_TK4-_v1.00_Users_Manual.pdf<br>
-Default username and password is:
-username: herc03
-password: pass4u
+Default username and password is:<br>
+username: herc03<br>
+password: pass4u<br>
+https://www.youtube.com/watch?v=arLs4GDJvrw
