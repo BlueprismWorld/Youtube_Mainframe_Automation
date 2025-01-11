@@ -15,4 +15,5 @@ Default username and password is:<br>
 username: herc03<br>
 password: pass4u<br>
 https://www.youtube.com/watch?v=arLs4GDJvrw<br>
-https://mainframenation.com/mainframe/the-mvs-turnkey-system-tutorial/
+https://mainframenation.com/mainframe/the-mvs-turnkey-system-tutorial/<br>
+https://www.ibm.com/support/pages/ibm-personal-communications-1501#DNLD
