@@ -14,4 +14,5 @@ for more commands visit http://wotho.ethz.ch/tk4-/MVS_TK4-_v1.00_Users_Manual.pd
 Default username and password is:<br>
 username: herc03<br>
 password: pass4u<br>
-https://www.youtube.com/watch?v=arLs4GDJvrw
+https://www.youtube.com/watch?v=arLs4GDJvrw<br>
+https://mainframenation.com/mainframe/the-mvs-turnkey-system-tutorial/
